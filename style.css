@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: Roboto;
+    src: url(./fonts/RobotoMono-Bold.ttf);
+}
+
+.dark-mode{
+    background-color: black;
+    color: white;
+}
+
+.header{
+    font-family: Roboto;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.boton{
+    transform: translate(750px);
+    background-color: white;
+    border-radius: 10px;
+}
+
+.reloj{
+    font: bold;
+    font-size: 200px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    transform: translateY(250px);
+}
